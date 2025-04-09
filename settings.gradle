@@ -1,2 +1,6 @@
 rootProject.name = 'exagonal-architecture-java21'
+include 'model'
+include 'application'
+include 'adapter'
+include 'bootstrap'
 
