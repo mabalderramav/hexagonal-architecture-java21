@@ -1,4 +1,4 @@
-package net.mitocode.exagonalArchitectureJava21.model.gymclass;
+package net.mitocode.hexagonalArchitectureJava21.model.gymclass;
 
 public class TestGymClassFactory {
     private static final int ENOUGH_SPOTS_AVAILABLE = Integer.MAX_VALUE;

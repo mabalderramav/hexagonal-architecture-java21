@@ -1,4 +1,4 @@
-package net.mitocode.exagonalArchitectureJava21.model.customer;
+package net.mitocode.hexagonalArchitectureJava21.model.customer;
 
 import java.util.UUID;
 

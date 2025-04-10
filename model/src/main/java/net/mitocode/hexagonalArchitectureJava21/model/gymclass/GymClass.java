@@ -1,9 +1,9 @@
-package net.mitocode.exagonalArchitectureJava21.model.gymclass;
+package net.mitocode.hexagonalArchitectureJava21.model.gymclass;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.experimental.Accessors;
-import net.mitocode.exagonalArchitectureJava21.model.reservation.NotEnoughSpotsAvailableException;
+import net.mitocode.hexagonalArchitectureJava21.model.reservation.NotEnoughSpotsAvailableException;
 
 @Data
 @Accessors(fluent = true)

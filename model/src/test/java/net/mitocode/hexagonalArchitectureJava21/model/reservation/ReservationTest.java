@@ -1,11 +1,11 @@
-package net.mitocode.exagonalArchitectureJava21.model.reservation;
+package net.mitocode.hexagonalArchitectureJava21.model.reservation;
 
-import net.mitocode.exagonalArchitectureJava21.model.gymclass.GymClass;
-import net.mitocode.exagonalArchitectureJava21.model.gymclass.TestGymClassFactory;
+import net.mitocode.hexagonalArchitectureJava21.model.gymclass.GymClass;
+import net.mitocode.hexagonalArchitectureJava21.model.gymclass.TestGymClassFactory;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static net.mitocode.exagonalArchitectureJava21.model.customer.TestCustomerIdFactory.randomCustomerId;
+import static net.mitocode.hexagonalArchitectureJava21.model.customer.TestCustomerIdFactory.randomCustomerId;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 

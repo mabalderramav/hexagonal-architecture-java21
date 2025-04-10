@@ -1,4 +1,4 @@
-rootProject.name = 'exagonal-architecture-java21'
+rootProject.name = 'hexagonal-architecture-java21'
 include 'model'
 include 'application'
 include 'adapter'

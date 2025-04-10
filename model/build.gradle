@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group = 'net.mitocode.exagonalArchitectureJava21.model'
+group = 'net.mitocode.hexagonalArchitectureJava21.model'
 version = '1.0-SNAPSHOT'
 
 repositories {

@@ -1,4 +1,4 @@
-package net.mitocode.exagonalArchitectureJava21.model.gymclass;
+package net.mitocode.hexagonalArchitectureJava21.model.gymclass;
 
 import java.util.Objects;
 import java.util.concurrent.ThreadLocalRandom;

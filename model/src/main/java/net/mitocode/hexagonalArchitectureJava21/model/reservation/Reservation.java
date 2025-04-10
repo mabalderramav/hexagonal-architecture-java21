@@ -1,12 +1,12 @@
-package net.mitocode.exagonalArchitectureJava21.model.reservation;
+package net.mitocode.hexagonalArchitectureJava21.model.reservation;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.Accessors;
-import net.mitocode.exagonalArchitectureJava21.model.customer.CustomerId;
-import net.mitocode.exagonalArchitectureJava21.model.gymclass.GymClass;
+import net.mitocode.hexagonalArchitectureJava21.model.customer.CustomerId;
+import net.mitocode.hexagonalArchitectureJava21.model.gymclass.GymClass;
 
 @Getter
 @Accessors(fluent = true)

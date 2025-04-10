@@ -1,4 +1,4 @@
-package net.mitocode.exagonalArchitectureJava21.adapter;
+package net.mitocode.hexagonalArchitectureJava21.application;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
