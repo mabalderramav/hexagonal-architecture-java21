@@ -19,6 +19,19 @@ dependencies {
     testImplementation 'org.assertj:assertj-core:3.27.3'
 }
 
+configurations {
+    testArtifacts
+}
+
+tasks.register('testJar', Jar) {
+    from sourceSets.test.output
+    archiveClassifier = 'tests'
+}
+
+artifacts {
+    testArtifacts testJar
+}
+
 test {
     useJUnitPlatform()
 }
