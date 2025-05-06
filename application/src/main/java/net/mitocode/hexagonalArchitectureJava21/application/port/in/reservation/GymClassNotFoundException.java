@@ -4,4 +4,7 @@ public class GymClassNotFoundException extends Exception {
     public GymClassNotFoundException(String message) {
         super(message);
     }
+
+    public GymClassNotFoundException() {
+    }
 }

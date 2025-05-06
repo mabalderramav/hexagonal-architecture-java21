@@ -4,7 +4,7 @@ import net.mitocode.hexagonalArchitectureJava21.model.gymclass.GymClass;
 
 import java.util.List;
 
-public interface FindGymClassUSeCase {
+public interface FindGymClassUseCase {
     /**
      * Finds gym classes by type or description.
      *

@@ -1,7 +1,7 @@
 package net.mitocode.hexagonalArchitectureJava21.application.service.gymclass;
 
 import lombok.RequiredArgsConstructor;
-import net.mitocode.hexagonalArchitectureJava21.application.port.in.gymclass.FindGymClassUSeCase;
+import net.mitocode.hexagonalArchitectureJava21.application.port.in.gymclass.FindGymClassUseCase;
 import net.mitocode.hexagonalArchitectureJava21.application.port.out.persistence.GymClassRepository;
 import net.mitocode.hexagonalArchitectureJava21.model.gymclass.GymClass;
 
@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Objects;
 
 @RequiredArgsConstructor
-public class FindGymClassService implements FindGymClassUSeCase {
+public class FindGymClassService implements FindGymClassUseCase {
 
     private final GymClassRepository gymClassRepository;
 

@@ -10,8 +10,22 @@ repositories {
 }
 
 dependencies {
+    implementation project(":application")
+    implementation project(":model")
+    implementation 'org.projectlombok:lombok:1.18.38'
+    compileOnly 'org.projectlombok:lombok:1.18.38'
+    annotationProcessor 'org.projectlombok:lombok:1.18.38'
+
+    implementation 'jakarta.ws.rs:jakarta.ws.rs-api:4.0.0'
+
+    testImplementation 'org.jboss.resteasy:resteasy-jackson2-provider:6.2.12.Final'
+    testImplementation 'org.jboss.resteasy:resteasy-undertow:6.2.12.Final'
+    testImplementation 'io.rest-assured:rest-assured:5.5.1'
+    testImplementation 'org.assertj:assertj-core:3.27.3'
+    testImplementation 'org.mockito:mockito-core:5.17.0'
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation project(path: ":model", configuration: "testArtifacts")
 }
 
 test {
